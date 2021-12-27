@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <script src="weather.js"></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <header class="header1">Jahnavi Weather App</header>
+    <div class="main-data">
+      <div class="data1">
+        <button class="btn" onclick="show()">Get Weather</button>
+        <p class="city-names">city</p>
+        <p class="city-names">
+          <button href="#" class="highlight" onclick="nodata()">London</button>
+        </p>
+        <p class="city-names">
+          <button href="#" class="highlight">New York</button>
+        </p>
+        <p class="city-names">
+          <button href="#" class="highlight">Los Angeles</button>
+        </p>
+        <p class="city-names">
+          <button href="#" class="highlight">Los Vegas</button>
+        </p>
+      </div>
+      <div class="data2">
+        <div class="searching">
+          <input type="text" class="text-main" />
+          <button class="search">Search</button>
+        </div>
+        <table id="weather"></table>
+      </div>
+    </div>
+  </body>
+</html>
